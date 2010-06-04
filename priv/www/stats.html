@@ -1,0 +1,41 @@
+!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"> 
+<html lang="en"> 
+ 
+<head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <title>uURL</title> 
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" charset="utf-8"> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.sparkline.min.js"></script>
+    <script>
+        $(function() {
+			$.getJSON('stats/<% Data %>', function(data) {
+			  	$('#content').html('<p>URL: ' + data.url + '</p>'
+			    	+ '<p>STATS: /'+<% Data %>+'!</p>' 
+					+ '<p>Clicks since '+data.date+': '+data.clicks + '</p>'
+					+ '<p>Visitors: '+data.visitors+'</p>'
+					+ '<p>Referers: '+data.referers+'</p>'
+					+ 'Clicks per Hour today, starting '+data.date+': <span class="inlinesparkline">'+data.cpm+'</span>'
+					);
+			});
+			
+            $('.inlinesparkline').sparkline('html',{type:'bar', defaultPixelsPerValue:10}); 
+       });
+    </script>
+
+</head>
+
+<body> 
+<div id='topbar'> 
+    <h1 style="float: left">Erlang|MochiWeb|Mongo|Redis|URL Shortener|</h1> 
+</div> 
+<div id='content'> 
+</div> 
+<div id='footer'> 
+        (c) gleicon 2010  
+</div> 
+ 
+</body> 
+</html> 
+
+

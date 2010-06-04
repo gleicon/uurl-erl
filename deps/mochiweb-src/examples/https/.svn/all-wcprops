@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/153/trunk/examples/https
+END
+https_store.erl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/153/trunk/examples/https/https_store.erl
+END
+server_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/153/trunk/examples/https/server_cert.pem
+END
+server_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/153/trunk/examples/https/server_key.pem
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/153/trunk/support/test-materials
+END
+test_ssl_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/153/trunk/support/test-materials/test_ssl_key.pem
+END
+test_ssl_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/153/trunk/support/test-materials/test_ssl_cert.pem
+END

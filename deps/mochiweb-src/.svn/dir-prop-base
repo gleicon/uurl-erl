@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 6
+_test
+
+K 13
+svn:mergeinfo
+V 32
+/branches/acceptor-11334:162-163
+END
