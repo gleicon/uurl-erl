@@ -1,24 +1,27 @@
 body {
-        background: #eee;
-        font-family: Verdana;
+        background: #95CBE9;
         padding: 0px;
         margin: 0px;
+        font: 80%/140% 'Verdana';
+        margin: 0 auto;
 }
  
 a {
     color: #333;
     text-decoration: none;
 }
- 
+
+
 #content {
     padding: 20px;
     position: absolute;
     left: 0;
     top: 50px;
+    color: #024769;
 }
  
 div#footer { 
-    background: #666;
+    background: #024769;
     clear: both;
     width: 100%;
     color: #eee;
@@ -44,8 +47,8 @@ div#footer a {
 }
  
 #topbar {
-        background: #444;
-        color: #ddd;
+        background: #024769;
+        color: #AFD775;
         width: 100%;
         position: absolute;
         top: 0px;
